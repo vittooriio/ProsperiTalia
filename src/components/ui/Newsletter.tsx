@@ -20,7 +20,7 @@ const Newsletter = () => {
 
   return (
     <section className="bg-blue-50 py-16">
-      <div className="container max-w-4xl mx-auto text-center">
+      {/* <div className="container max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">Iscriviti alla nostra Newsletter</h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
           Ricevi i nostri migliori consigli e strategie di finanza personale direttamente nella tua casella email.
@@ -47,7 +47,7 @@ const Newsletter = () => {
         <p className="text-sm text-gray-500 mt-4">
           Non condivideremo mai il tuo indirizzo email. Puoi annullare l'iscrizione in qualsiasi momento.
         </p>
-      </div>
+      </div> */}
     </section>
   );
 };

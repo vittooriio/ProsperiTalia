@@ -283,7 +283,7 @@ const Blog = () => {
             <div className="flex flex-col md:flex-row gap-6">
               {/* Search bar */}
               <div className="flex-grow relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none search-icon-wrapper" >
                   <Search size={18} className="text-gray-400" />
                 </div>
                 <input

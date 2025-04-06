@@ -29,7 +29,7 @@ const Investimenti = () => {
           <div className="bg-primary/5 border border-primary/20 rounded-lg p-6">
             <h3 className="text-xl font-semibold mb-3">Il nostro approccio agli investimenti</h3>
             <p>
-              In FinWell, crediamo in un approccio basato su diversificazione, investimenti a lungo termine e conoscenza approfondita. Non promuoviamo strategie get-rich-quick o investimenti speculativi, ma ti aiutiamo a costruire un patrimonio solido nel tempo.
+              In ProsperItalia, crediamo in un approccio basato su diversificazione, investimenti a lungo termine e conoscenza approfondita. Non promuoviamo strategie get-rich-quick o investimenti speculativi, ma ti aiutiamo a costruire un patrimonio solido nel tempo.
             </p>
           </div>
         </div>
@@ -219,7 +219,7 @@ const Investimenti = () => {
       </section>
 
       {/* Newsletter e CTA */}
-      <section className="bg-primary text-white py-16">
+      {/* <section className="bg-primary text-white py-16">
         <div className="container max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-4">Rimani Aggiornato sul Mondo degli Investimenti</h2>
           <p className="text-xl mb-8 opacity-90">
@@ -245,7 +245,7 @@ const Investimenti = () => {
             Non condivideremo mai il tuo indirizzo email. Puoi annullare l'iscrizione in qualsiasi momento.
           </p>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

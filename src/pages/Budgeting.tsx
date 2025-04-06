@@ -415,7 +415,7 @@ const Budgeting = () => {
         </div>
       </section>
 
-      <Newsletter />
+      {/* <Newsletter /> */}
     </Layout>
   );
 };

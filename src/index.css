@@ -78,3 +78,15 @@
     @apply hover:text-primary transition-colors;
   }
 }
+
+
+.search-icon-wrapper {
+  margin-top: -1.40rem;
+}
+
+/* Stile per mobile (es. schermi larghi fino a 767px) */
+@media (max-width: 767px) { 
+  .search-icon-wrapper {
+    margin-top: 0; /* Rimuove il margine negativo */
+  }
+}

@@ -28,8 +28,8 @@ const Header = () => {
           <Link to="/investimenti" className="nav-link font-medium">Investimenti</Link>
           <Link to="/risparmio" className="nav-link font-medium">Risparmio</Link>
           <Link to="/budgeting" className="nav-link font-medium">Budgeting</Link>
-          <Link to="/chi-siamo" className="nav-link font-medium">Chi Siamo</Link>
-          <Link to="/contatti" className="nav-link font-medium">Contatti</Link>
+          {/* <Link to="/chi-siamo" className="nav-link font-medium">Chi Siamo</Link> */}
+          {/* <Link to="/contatti" className="nav-link font-medium">Contatti</Link> */}
         </nav>
 
         {/* Mobile Navigation */}
@@ -41,8 +41,8 @@ const Header = () => {
               <Link to="/investimenti" className="nav-link font-medium p-2" onClick={closeMenu}>Investimenti</Link>
               <Link to="/risparmio" className="nav-link font-medium p-2" onClick={closeMenu}>Risparmio</Link>
               <Link to="/budgeting" className="nav-link font-medium p-2" onClick={closeMenu}>Budgeting</Link>
-              <Link to="/chi-siamo" className="nav-link font-medium p-2" onClick={closeMenu}>Chi Siamo</Link>
-              <Link to="/contatti" className="nav-link font-medium p-2" onClick={closeMenu}>Contatti</Link>
+              {/* <Link to="/chi-siamo" className="nav-link font-medium p-2" onClick={closeMenu}>Chi Siamo</Link> */}
+              {/* <Link to="/contatti" className="nav-link font-medium p-2" onClick={closeMenu}>Contatti</Link> */}
             </nav>
           </div>
         )}
