@@ -84,12 +84,12 @@ const Index = () => {
               icon={<PiggyBank size={36} />}
               link="/risparmio"
             />
-            <FeaturedCard
+            {/* <FeaturedCard
               title="Gestione Finanziaria"
               description="Ottimizza la gestione delle tue finanze con strumenti e strategie per monitorare e migliorare la tua situazione."
               icon={<LineChart size={36} />}
               link="/blog/categoria/gestione-finanziaria"
-            />
+            /> */}
           </div>
         </div>
       </section>

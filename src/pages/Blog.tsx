@@ -225,23 +225,23 @@ const Blog = () => {
     "@type": "Blog",
     "headline": "Blog di ProsperiTalia - Finanza Personale",
     "description": "Articoli, guide e consigli pratici sulla gestione finanziaria, investimenti, risparmio e budgeting su ProsperiTalia.",
-    "url": "https://prosperitalia.com/blog",
+    "url": "https://prosperitalia.net/blog",
     "author": {
       "@type": "Organization",
       "name": "ProsperiTalia Team",
-      "url": "https://prosperitalia.com/chi-siamo"
+      "url": "https://prosperitalia.net/chi-siamo"
     },
     "publisher": {
       "@type": "Organization",
       "name": "ProsperiTalia",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://prosperitalia.com/logo.png"
+        "url": "https://prosperitalia.net/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://prosperitalia.com/blog"
+      "@id": "https://prosperitalia.net/blog"
     },
     "blogPost": filteredArticles.map(article => ({
       "@type": "BlogPosting",
@@ -255,7 +255,7 @@ const Blog = () => {
       "image": article.image,
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": `https://prosperitalia.com/blog/${article.id}`
+        "@id": `https://prosperitalia.net/blog/${article.id}`
       },
       "articleSection": article.category
     }))
