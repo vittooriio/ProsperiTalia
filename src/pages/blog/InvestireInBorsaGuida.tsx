@@ -337,9 +337,9 @@ const InvestireInBorsaGuida: React.FC = () => {
                        <li><strong className='text-success'>Semplicità e Trasparenza:</strong> Facili da capire (replicano un indice) e sai sempre esattamente cosa c'è dentro il fondo.</li>
                        <li><strong className='text-success'>Flessibilità:</strong> Si comprano e vendono in borsa come le normali azioni durante gli orari di mercato.</li>
                     </ul>
-                     <Link to="/blog/guida-etf-cosa-sono-come-investire" className="inline-flex items-center text-sm text-primary hover:underline mt-3 font-medium">
+                     {/* <Link to="/blog/guida-etf-cosa-sono-come-investire" className="inline-flex items-center text-sm text-primary hover:underline mt-3 font-medium">
                         Approfondisci: Guida Completa agli ETF per il 2025 <ArrowRight size={14} className="ml-1" />
-                     </Link>
+                     </Link> */}
                 </div>
 
                  <Alert variant="default" className="mt-6 bg-purple-50 border-l-4 border-purple-500 text-purple-800 dark:bg-purple-900/30 dark:border-purple-600 dark:text-purple-300">
@@ -368,9 +368,9 @@ const InvestireInBorsaGuida: React.FC = () => {
                                 <li><strong>Vantaggio 1 (Mediazione del Prezzo - Dollar Cost Averaging):</strong> Compri più quote quando i prezzi sono bassi e meno quote quando sono alti, mediando il tuo prezzo medio di carico nel tempo.</li>
                                 <li><strong>Vantaggio 2 (Disciplina e Automazione):</strong> Rende l'investimento un'abitudine, togliendo l'emotività dalla decisione di "quando" comprare. Molti broker permettono di impostare PAC automatici su ETF.</li>
                             </ul>
-                             {/* <Link to="/blog/piano-accumulo-capitale-pac-guida" className="inline-flex items-center text-sm text-primary hover:underline mt-3 font-medium">
+                             <Link to="/blog/piano-accumulo-capitale-pac-guida-definitiva-principianti" className="inline-flex items-center text-sm text-primary hover:underline mt-3 font-medium">
                                 Scopri tutto sul Piano di Accumulo Capitale (PAC) <ArrowRight size={14} className="ml-1" />
-                             </Link> */}
+                             </Link>
                          </li>
                      </ul>
                  </div>

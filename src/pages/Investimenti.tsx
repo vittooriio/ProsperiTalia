@@ -126,47 +126,47 @@ const Investimenti = () => {
             </ul>
           </div>
           
-          {/* <div className="mb-12 bg-green-50 rounded-lg p-8">
+          <div className="mb-12 bg-green-50 rounded-lg p-8">
             <h3 className="text-2xl font-semibold mb-4">Per Investitori Intermedi</h3>
             <p className="text-gray-600 mb-6">
               Hai già le basi e sei pronto per strategie più avanzate? Questi contenuti ti aiuteranno a migliorare le tue competenze.
             </p>
             <ul className="space-y-4">
               <li className="bg-white p-4 rounded-md shadow-sm">
-                <Link to="/blog" className="text-lg font-medium text-primary hover:underline">Strategie di Asset Allocation per Diverse Fasi della Vita</Link>
+                <Link to="/blog/investire-asset-allocation-fasi-vita-intermedio" className="text-lg font-medium text-primary hover:underline">Strategie di Asset Allocation per Diverse Fasi della Vita</Link>
                 <p className="text-gray-600 mt-1">Come adattare il tuo portafoglio di investimenti alle diverse fasi della tua vita e ai tuoi obiettivi.</p>
               </li>
               <li className="bg-white p-4 rounded-md shadow-sm">
-                <Link to="/blog" className="text-lg font-medium text-primary hover:underline">Come Valutare la Qualità di un'Azienda Prima di Investire</Link>
+                <Link to="/blog/valutare-qualita-azienda-investire-intermedio" className="text-lg font-medium text-primary hover:underline">Come Valutare la Qualità di un'Azienda Prima di Investire</Link>
                 <p className="text-gray-600 mt-1">Tecniche di analisi fondamentale per identificare aziende di qualità con potenziale a lungo termine.</p>
               </li>
               <li className="bg-white p-4 rounded-md shadow-sm">
-                <Link to="/blog" className="text-lg font-medium text-primary hover:underline">Investire in Periodi di Volatilità: Strategie Difensive</Link>
+                <Link to="/blog/investire-volatilita-strategie-difensive-intermedio" className="text-lg font-medium text-primary hover:underline">Investire in Periodi di Volatilità: Strategie Difensive</Link>
                 <p className="text-gray-600 mt-1">Come proteggere il tuo portafoglio durante periodi di incertezza e volatilità dei mercati.</p>
               </li>
             </ul>
-          </div> */}
+          </div>
           
-          {/* <div className="bg-purple-50 rounded-lg p-8">
+          <div className="bg-purple-50 rounded-lg p-8">
             <h3 className="text-2xl font-semibold mb-4">Per Investitori Avanzati</h3>
             <p className="text-gray-600 mb-6">
               Per chi ha esperienza significativa e cerca di ottimizzare ulteriormente la propria strategia di investimento.
             </p>
             <ul className="space-y-4">
               <li className="bg-white p-4 rounded-md shadow-sm">
-                <Link to="/blog" className="text-lg font-medium text-primary hover:underline">Strategie di Fattore e Smart Beta: Un'Analisi Approfondita</Link>
+                <Link to="/blog/factor-investing-smart-beta-analisi-approfondita" className="text-lg font-medium text-primary hover:underline">Strategie di Fattore e Smart Beta: Un'Analisi Approfondita</Link>
                 <p className="text-gray-600 mt-1">Esplora approcci di investimento basati su fattori di rischio e rendimento per migliorare i risultati del portafoglio.</p>
               </li>
               <li className="bg-white p-4 rounded-md shadow-sm">
-                <Link to="/blog" className="text-lg font-medium text-primary hover:underline">Ottimizzazione Fiscale degli Investimenti</Link>
+                <Link to="/blog/ottimizzazione-fiscale-investimenti-avanzata" className="text-lg font-medium text-primary hover:underline">Ottimizzazione Fiscale degli Investimenti</Link>
                 <p className="text-gray-600 mt-1">Strategie legali per minimizzare l'impatto fiscale sui tuoi investimenti e massimizzare i rendimenti netti.</p>
               </li>
               <li className="bg-white p-4 rounded-md shadow-sm">
-                <Link to="/blog" className="text-lg font-medium text-primary hover:underline">Investimenti ESG e Impact Investing: Oltre il Rendimento Finanziario</Link>
+                <Link to="/blog/investimenti-esg-impact-investing-approfondimento" className="text-lg font-medium text-primary hover:underline">Investimenti ESG e Impact Investing: Oltre il Rendimento Finanziario</Link>
                 <p className="text-gray-600 mt-1">Come integrare considerazioni ambientali, sociali e di governance nelle tue decisioni di investimento.</p>
               </li>
             </ul>
-          </div> */}
+          </div>
         </div>
       </section>
 

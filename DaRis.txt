@@ -1,6 +1,6 @@
-Investimenti.tsx da 129 a 219
+Investimenti.tsx da 129 a 219  V
 
-investireInBorsaGuida.tsx 372
+investireInBorsaGuida.tsx 341
 
 ObbligazioniGuida.tsx 290
 
