@@ -54,7 +54,7 @@ const Investimenti = () => {
                 <li>• ETF e fondi indice</li>
                 <li>• Gestione del rischio</li>
               </ul>
-              <Link to="/blog/categoria/mercato-azionario" className="text-primary hover:text-primary/80 font-medium transition-colors">
+              <Link to="/categoria/mercato-azionario" className="text-primary hover:text-primary/80 font-medium transition-colors">
                 Approfondisci →
               </Link>
             </div>
@@ -73,7 +73,7 @@ const Investimenti = () => {
                 <li>• Strategie per generare reddito passivo</li>
                 <li>• Diversificazione del portafoglio</li>
               </ul>
-              <Link to="/blog/categoria/obbligazioni" className="text-primary hover:text-primary/80 font-medium transition-colors">
+              <Link to="/categoria/obbligazioni" className="text-primary hover:text-primary/80 font-medium transition-colors">
                 Approfondisci →
               </Link>
             </div>
@@ -92,7 +92,7 @@ const Investimenti = () => {
                 <li>• Private equity</li>
                 <li>• Criptovalute e asset digitali</li>
               </ul>
-              <Link to="/blog/categoria/investimenti-alternativi" className="text-primary hover:text-primary/80 font-medium transition-colors">
+              <Link to="/categoria/investimenti-alternativi" className="text-primary hover:text-primary/80 font-medium transition-colors">
                 Approfondisci →
               </Link>
             </div>
@@ -126,7 +126,7 @@ const Investimenti = () => {
             </ul>
           </div>
           
-          <div className="mb-12 bg-green-50 rounded-lg p-8">
+          {/* <div className="mb-12 bg-green-50 rounded-lg p-8">
             <h3 className="text-2xl font-semibold mb-4">Per Investitori Intermedi</h3>
             <p className="text-gray-600 mb-6">
               Hai già le basi e sei pronto per strategie più avanzate? Questi contenuti ti aiuteranno a migliorare le tue competenze.
@@ -145,9 +145,9 @@ const Investimenti = () => {
                 <p className="text-gray-600 mt-1">Come proteggere il tuo portafoglio durante periodi di incertezza e volatilità dei mercati.</p>
               </li>
             </ul>
-          </div>
+          </div> */}
           
-          <div className="bg-purple-50 rounded-lg p-8">
+          {/* <div className="bg-purple-50 rounded-lg p-8">
             <h3 className="text-2xl font-semibold mb-4">Per Investitori Avanzati</h3>
             <p className="text-gray-600 mb-6">
               Per chi ha esperienza significativa e cerca di ottimizzare ulteriormente la propria strategia di investimento.
@@ -166,12 +166,12 @@ const Investimenti = () => {
                 <p className="text-gray-600 mt-1">Come integrare considerazioni ambientali, sociali e di governance nelle tue decisioni di investimento.</p>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* Strumenti e risorse */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="container max-w-4xl">
           <h2 className="text-3xl font-bold mb-8 text-center">Strumenti e Risorse</h2>
           
@@ -209,14 +209,14 @@ const Investimenti = () => {
               </Link>
             </div>
             
-            <div className="text-center">
+             <div className="text-center">
               <Link to="/strumenti" className="btn-primary">
                 Esplora tutti gli strumenti
               </Link>
-            </div>
+            </div> 
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Newsletter e CTA */}
       {/* <section className="bg-primary text-white py-16">

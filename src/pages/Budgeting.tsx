@@ -217,12 +217,12 @@ const Budgeting = () => {
                   <p className="text-gray-600 mt-1">Molte banche offrono strumenti di categorizzazione e analisi delle spese integrati.</p>
                 </li>
               </ul>
-              <div className="mt-8 text-center">
+              {/* <div className="mt-8 text-center">
                 <Link to="/strumenti" className="inline-flex items-center text-primary hover:underline">
                   Scopri i nostri strumenti di budgeting digitale
                   <LineChart size={16} className="ml-1" />
                 </Link>
-              </div>
+              </div> */}
             </div>
             
             <div className="bg-gray-50 rounded-lg p-8">
@@ -246,12 +246,12 @@ const Budgeting = () => {
                   <p className="text-gray-600 mt-1">Visualizza entrate e spese in un formato di calendario per gestire meglio il flusso di cassa.</p>
                 </li>
               </ul>
-              <div className="mt-8 text-center">
+              {/* <div className="mt-8 text-center">
                 <Link to="/blog" className="inline-flex items-center text-primary hover:underline">
                   Metodi tradizionali di budgeting che funzionano ancora
                   <BarChart size={16} className="ml-1" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -344,12 +344,12 @@ const Budgeting = () => {
             Il primo passo verso la libertà finanziaria è creare un budget che funzioni per te. Scarica il nostro modello gratuito di budget e inizia oggi stesso.
           </p>
           
-          <Link
+          {/* <Link
             to="/strumenti/modello-budget"
             className="bg-white text-primary font-semibold px-8 py-3 rounded-md hover:bg-gray-100 transition-colors inline-block"
           >
             Scarica il Modello di Budget
-          </Link>
+          </Link> */}
         </div>
       </section>
 

@@ -8,14 +8,22 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-8">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">ProsperiTalia</h3>
             <p className="text-gray-300">
               La tua guida alla finanza personale. Articoli, consigli e strategie per gestire meglio il tuo denaro.
             </p>
           </div>
-          
+          <div>
+            {/* <h3 className="text-xl font-semibold mb-4">Informazioni</h3> */}
+            <ul className="space-y-2">
+              {/* <li><Link to="/chi-siamo" className="text-gray-300 hover:text-primary transition-colors">Chi Siamo</Link></li> */}
+              {/* <li><Link to="/contatti" className="text-gray-300 hover:text-primary transition-colors">Contatti</Link></li> */}
+              {/* <li><Link to="/privacy-policy" className="text-gray-300 hover:text-primary transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/termini-servizio" className="text-gray-300 hover:text-primary transition-colors">Termini di Servizio</Link></li> */}
+            </ul>
+          </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Risorse</h3>
             <ul className="space-y-2">
@@ -26,15 +34,7 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
-            {/* <h3 className="text-xl font-semibold mb-4">Informazioni</h3> */}
-            <ul className="space-y-2">
-              {/* <li><Link to="/chi-siamo" className="text-gray-300 hover:text-primary transition-colors">Chi Siamo</Link></li> */}
-              {/* <li><Link to="/contatti" className="text-gray-300 hover:text-primary transition-colors">Contatti</Link></li> */}
-              {/* <li><Link to="/privacy-policy" className="text-gray-300 hover:text-primary transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/termini-servizio" className="text-gray-300 hover:text-primary transition-colors">Termini di Servizio</Link></li> */}
-            </ul>
-          </div>
+         
           
           
         </div>

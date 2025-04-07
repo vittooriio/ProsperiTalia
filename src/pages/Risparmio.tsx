@@ -234,9 +234,9 @@ const Risparmio = () => {
                 <p className="mb-6">
                   Al termine dei 30 giorni, avrai una nuova consapevolezza delle tue abitudini di spesa e un gruzzoletto extra.
                 </p>
-                <Link to="/blog" className="btn-primary inline-block">
+                {/* <Link to="/blog" className="btn-primary inline-block">
                   Partecipa alla challenge
-                </Link>
+                </Link> */}
               </div>
             </div>
             
@@ -251,9 +251,9 @@ const Risparmio = () => {
                 <p className="mb-6">
                   Questa challenge graduale ti aiuta a costruire l'abitudine del risparmio in modo progressivo e sostenibile.
                 </p>
-                <Link to="/blog" className="btn-secondary inline-block">
+                {/* <Link to="/blog" className="btn-secondary inline-block">
                   Scarica il piano settimanale
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -261,7 +261,7 @@ const Risparmio = () => {
       </section>
 
       {/* Testimonianze */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="container max-w-5xl">
           <h2 className="text-3xl font-bold mb-12 text-center">Storie di Successo</h2>
           
@@ -305,7 +305,7 @@ const Risparmio = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <CallToAction
         title="Pronto a iniziare il tuo percorso di risparmio?"

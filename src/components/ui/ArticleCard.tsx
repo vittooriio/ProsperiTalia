@@ -34,12 +34,11 @@ const ArticleCard = ({
       </Link>
       <div className="p-5 flex flex-col flex-grow">
         <div className="mb-2">
-          <Link 
-            to={`/blog/categoria/${category.toLowerCase().replace(/\s+/g, '-')}`} 
+          <div
             className="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full"
           >
             {category}
-          </Link>
+          </div>
         </div>
         
         <h3 className="text-xl font-semibold mb-2">
