@@ -21,7 +21,7 @@ const pageUrl = `${BASE_URL}/blog/${pageSlug}`;
 // !! ATTENZIONE: Scaricare, ottimizzare e ospitare le proprie immagini è FONDAMENTALE in produzione !!
 const unsplashOgImage = 'https://unsplash.com/it/foto/un-mucchio-di-soldi-seduti-sopra-un-tavolo-dqNLWLykHBc'; // Esempio: Grafico a barre stabile
 const unsplashHeroImage = 'https://images.unsplash.com/photo-1559067096-49ebca3406aa?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; // Esempio: Grafico a barre stabile (Hero)
-const placeholderPublisherLogoUrl = `${BASE_URL}/Logo.jpeg`; // USA IL TUO LOGO REALE
+const placeholderPublisherLogoUrl = `${BASE_URL}/favicon.ico`; // USA IL TUO LOGO REALE
 
 const authorName = 'Team di Analisti ProsperItalia';
 const authorUrl = `${BASE_URL}/chi-siamo`; // Link alla tua pagina Autore/Team

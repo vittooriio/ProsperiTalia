@@ -21,7 +21,7 @@ const pageUrl = `${BASE_URL}/blog/${pageSlug}`;
 // !! ATTENZIONE: Si consiglia di scaricare, ottimizzare e ospitare le proprie immagini !!
 const unsplashOgImage = 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80'; // Esempio: Trading screen
 const unsplashHeroImage = 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'; // Esempio: Trading screen (leggermente diverso per hero)
-const placeholderPublisherLogoUrl = `${BASE_URL}/Logo.jpeg`; // MANTIENI IL LOGO REALE QUI
+const placeholderPublisherLogoUrl = `${BASE_URL}/favicon.ico`; // MANTIENI IL LOGO REALE QUI
 
 const authorName = 'Team di Analisti ProsperItalia';
 const authorUrl = `${BASE_URL}/chi-siamo`;
