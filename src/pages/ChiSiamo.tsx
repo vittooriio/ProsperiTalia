@@ -224,9 +224,9 @@ const ChiSiamo = () => {
       <section className="py-16 bg-primary text-white">
         <div className="container max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-4">Unisciti a Noi nel Nostro Percorso</h2>
-          <p className="text-xl mb-8">
+          {/* <p className="text-xl mb-8">
             Vuoi far parte della nostra missione di migliorare l'educazione finanziaria? Ci sono diversi modi per collaborare con noi.
-          </p>
+          </p> */}
           <div className="flex flex-wrap justify-center gap-4">
             {/* <Link
               to="/contatti"
