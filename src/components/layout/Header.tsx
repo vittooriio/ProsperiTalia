@@ -46,6 +46,9 @@ const Header = () => {
           <NavLink to="/budgeting" className={navData => `${navClass} ${navData.isActive ? activeClass : ""}`}>
             Budgeting
           </NavLink>
+          <NavLink to="/chi-siamo" className={navData => `${navClass} ${navData.isActive ? activeClass : ""}`}>
+            Chi Siamo
+          </NavLink>
           {/* eventualmente altri link */}
         </nav>
 

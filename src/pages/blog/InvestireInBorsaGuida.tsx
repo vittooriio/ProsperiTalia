@@ -82,6 +82,31 @@ const faqJsonLd = {
     ]
 };
 
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home", 
+      "item": BASE_URL
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Investimenti", 
+      "item": `${BASE_URL}/investimenti`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": pageTitle,
+      "item": pageUrl
+    }
+  ]
+};
+
 // Articoli correlati con immagini Unsplash ESEMPLIFICATIVE
 const relatedArticlesData = [
     { id: 'investimenti-alternativi', title: 'Investimenti Alternativi (2025): Guida a REIT, Materie Prime, Crypto e Altro', excerpt: 'Esplora il mondo degli investimenti alternativi nel 2025: REIT, materie prime (oro), private equity, criptovalute. Guida per capire rischi, opportunità e accessibilità.', category: 'Strumenti Finanziari', author: authorName, date: '2025-04-10', readTime: '16 min', image: 'https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80', slug: 'investimenti-alternativi' }, // Immagine: Warning light
@@ -98,7 +123,7 @@ const InvestireInBorsaGuida: React.FC = () => {
     canonicalUrl: pageUrl,
     ogImageUrl: unsplashOgImage, // Usa URL Unsplash
     ogType: 'article',
-    jsonLd: [articleJsonLd, faqJsonLd],
+    jsonLd: [articleJsonLd, faqJsonLd, breadcrumbJsonLd],
   });
 
   return (

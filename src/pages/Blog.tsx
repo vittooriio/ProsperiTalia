@@ -306,7 +306,7 @@ const Blog = () => {
       "name": "ProsperiTalia",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://prosperitalia.net/logo.png"
+        "url": "https://prosperitalia.net/favicon.ico"
       }
     },
     "mainEntityOfPage": {

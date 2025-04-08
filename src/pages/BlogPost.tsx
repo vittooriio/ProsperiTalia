@@ -3602,7 +3602,44 @@ const relatedArticles = [
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>();
   const post = id ? posts[id as keyof typeof posts] : null;
+  var minutes = parseInt(post.readTime, 10);
+  var timeRequired = "PT" + minutes + "M";
 
+  var parser = new DOMParser();
+  var doc = parser.parseFromString(post.content, "text/html");
+  var firstH2 = doc.querySelector("h2");
+  var firstH2Text = firstH2 ? firstH2.textContent.trim() : "";
+
+  var keywordsValue = post.category + " Finanza Personale";
+
+  var jsonLdData = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://prosperitalia.net/blog/"+id
+    },
+    "headline": post.title,
+    "description": firstH2Text,
+    "image": post.image,
+    "articleSection": post.category,
+    "author": {
+      "@type": "Organization",
+      "name": post.author
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ProsperItalia",
+      "url": "https://prosperitalia.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://prosperitalia.net/favicon.ico"  
+      }
+    },
+    "datePublished": post.date,
+    "timeRequired": timeRequired,
+    "keywords": keywordsValue
+  };
   if (!post) {
     return (
       <Layout>
@@ -3622,6 +3659,12 @@ const BlogPost = () => {
       title={post.title}
       description={`Leggi il nostro articolo su: ${post.title}. Scritto da ${post.author}.`}
     >
+
+      
+    <script type="application/ld+json">
+    {JSON.stringify(jsonLdData)}
+    </script>
+
       <article className="bg-gray-50">
         {/* Hero section */}
         <div className="relative h-[40vh] md:h-[50vh]">

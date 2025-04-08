@@ -25,15 +25,11 @@ const ChiSiamo = () => {
           <h2 className="text-3xl font-bold mb-6">La Nostra Storia</h2>
           <div className="prose prose-lg max-w-none">
             <p>
-              FinWell è nato nel 2020 dalla passione di un piccolo gruppo di professionisti del settore finanziario con una missione chiara: rendere l'educazione finanziaria accessibile a tutti.
+              ProsperItalia è nato dalla passione di un piccolo gruppo di professionisti del settore finanziario con una missione chiara: rendere l'educazione finanziaria accessibile a tutti.
             </p>
             
             <p>
-              Ciò che è iniziato come un semplice blog è cresciuto fino a diventare una risorsa completa per chiunque desideri migliorare la propria situazione finanziaria, indipendentemente dal punto di partenza.
-            </p>
-            
-            <p>
-              Troppo spesso l'informazione finanziaria è presentata in modo complicato, piena di gergo e difficile da applicare alla vita reale. Noi di FinWell crediamo che la conoscenza finanziaria debba essere:
+              Troppo spesso l'informazione finanziaria è presentata in modo complicato, piena di gergo e difficile da applicare alla vita reale. Noi di ProsperItalia crediamo che la conoscenza finanziaria debba essere:
             </p>
             
             <ul>
@@ -100,7 +96,7 @@ const ChiSiamo = () => {
         </div>
       </section>
 
-      {/* Il nostro team */}
+      {/* Il nostro team
       <section className="py-16 bg-white">
         <div className="container max-w-5xl">
           <h2 className="text-3xl font-bold mb-12 text-center">Il Nostro Team</h2>
@@ -120,7 +116,7 @@ const ChiSiamo = () => {
                 Ex consulente finanziario con 15 anni di esperienza nel settore bancario e degli investimenti.
               </p>
               <div className="flex justify-center space-x-3">
-                <a href="mailto:marco@finwell.it" className="text-gray-500 hover:text-primary transition-colors">
+                <a href="mailto:marco@ProsperItalia.it" className="text-gray-500 hover:text-primary transition-colors">
                   <Mail size={20} />
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
@@ -146,7 +142,7 @@ const ChiSiamo = () => {
                 Economista con specializzazione in finanza comportamentale e una passione per l'educazione finanziaria.
               </p>
               <div className="flex justify-center space-x-3">
-                <a href="mailto:laura@finwell.it" className="text-gray-500 hover:text-primary transition-colors">
+                <a href="mailto:laura@ProsperItalia.it" className="text-gray-500 hover:text-primary transition-colors">
                   <Mail size={20} />
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
@@ -172,7 +168,7 @@ const ChiSiamo = () => {
                 Esperto di mercati finanziari con un approccio orientato al valore e alla gestione del rischio.
               </p>
               <div className="flex justify-center space-x-3">
-                <a href="mailto:giovanni@finwell.it" className="text-gray-500 hover:text-primary transition-colors">
+                <a href="mailto:giovanni@ProsperItalia.it" className="text-gray-500 hover:text-primary transition-colors">
                   <Mail size={20} />
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
@@ -185,7 +181,7 @@ const ChiSiamo = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* I nostri valori */}
       <section className="py-16 bg-gray-50">
@@ -232,12 +228,12 @@ const ChiSiamo = () => {
             Vuoi far parte della nostra missione di migliorare l'educazione finanziaria? Ci sono diversi modi per collaborare con noi.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link
+            {/* <Link
               to="/contatti"
               className="bg-white text-primary font-semibold px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
             >
               Contattaci
-            </Link>
+            </Link> */}
             <Link
               to="/blog"
               className="bg-transparent border border-white text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition-colors"
@@ -249,7 +245,7 @@ const ChiSiamo = () => {
       </section>
 
       {/* Collaborazioni */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="container max-w-4xl">
           <h2 className="text-3xl font-bold mb-8 text-center">Collaborazioni e Riconoscimenti</h2>
           
@@ -272,7 +268,7 @@ const ChiSiamo = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

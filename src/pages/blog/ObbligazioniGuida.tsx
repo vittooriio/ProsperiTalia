@@ -99,8 +99,8 @@ const breadcrumbJsonLd = {
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Blog", // o il nome della sezione blog
-      "item": `${BASE_URL}/blog`
+      "name": "Investimenti", // o il nome della sezione blog
+      "item": `${BASE_URL}/investimenti`
     },
     {
       "@type": "ListItem",
