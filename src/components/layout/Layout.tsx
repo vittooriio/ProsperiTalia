@@ -2,6 +2,8 @@
 import { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { useLocation } from "react-router-dom";
+import { usePageMetadata } from "@/hooks/usePageMetadata";
 
 interface LayoutProps {
   children: ReactNode;
@@ -14,7 +16,11 @@ const Layout = ({ children, title, description }: LayoutProps) => {
   if (title) {
     document.title = `${title} | ProsperiTalia`;
   }
-
+  const location = useLocation();
+  const canonicalUrl="https://prosperitalia.net/"
+  // Generate current URL if no canonical is explicitly provided
+  const currentUrl = `${window.location.origin}${location.pathname}`;
+  console.log(currentUrl)
   // Update meta description if provided
   if (description) {
     const metaDescription = document.querySelector('meta[name="description"]');
@@ -22,7 +28,11 @@ const Layout = ({ children, title, description }: LayoutProps) => {
       metaDescription.setAttribute("content", description);
     }
   }
-
+  usePageMetadata({
+    title: title,
+    description: description ,
+    canonicalUrl: currentUrl
+  });
   return (
     <>
       <Header />
