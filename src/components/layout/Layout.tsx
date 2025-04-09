@@ -29,8 +29,8 @@ const Layout = ({ children, title, description }: LayoutProps) => {
     }
   }
   usePageMetadata({
-    title: title,
-    description: description ,
+    title: title || "ProsperiTalia",
+    description: description || "Scopri strategie efficaci per risparmiare, investire e gestire le tue finanze personali con consigli di esperti e guide pratiche.",
     canonicalUrl: currentUrl
   });
   return (
