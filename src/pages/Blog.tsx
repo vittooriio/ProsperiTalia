@@ -7,6 +7,15 @@ import { Helmet } from "react-helmet";
 // Mock data for blog articles
 const articles = [
   {
+    "id": "guida-investimenti-ibridi-2026-finanza-tradizionale-defi",
+    "title": "Investimenti Ibridi 2026: Come Unire ETF Tradizionali e Asset Digitali per Massimizzare il Rendimento",
+    "excerpt": "Il 2026 segna l'era della finanza ibrida. Scopri come costruire un portafoglio resiliente combinando la sicurezza degli ETF regolamentati con le rendite passive della DeFi 2.0. Una guida strategica per navigare tra tassi di interesse variabili, asset tokenizzati e protezione del capitale.",
+    "author": "Team di Analisti ProsperItalia",
+    "date": "15 Aprile 2026",
+    "readTime": "18 min",
+    "category": "Strategie di Investimento",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2070&auto=format&fit=crop"
+},{
     id: "piano-accumulo-capitale-pac-guida-definitiva-principianti",
     title: "Piano di Accumulo Capitale (PAC): Guida Definitiva 2025 per Principianti (Come Investire Poco alla Volta e Battere l'Inflazione)", 
     excerpt: "Scopri cos'è il PAC (Piano Accumulo Capitale) e come iniziare a investire piccole somme mensili. Guida completa 2025 per principianti su vantaggi (DCA, interesse composto), scelta ETF/Fondi, costi e piattaforme.", // Excerpt ottimizzato e più lungo
